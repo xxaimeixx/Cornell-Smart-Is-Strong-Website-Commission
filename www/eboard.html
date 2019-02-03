@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>SIS</title>
+  <meta charset="UTF-8" />
+  <meta name="Wesley Ho, Julia Atkins, Sanjana Seshadri, Amy Liu" content="SIS" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/nav_bar.css"/>
+  <link rel="stylesheet" type="text/css" href="css/all.css"/>
+  <link rel="stylesheet" type="text/css" href="css/footer.css"/>
+  <link rel="icon" sizes="16x16 32x32 64x64" href="sis_icon.ico"/>
+  <script src="scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
+  <script src="scripts/eboard.js" type="text/javascript"></script>
+  <script src="scripts/mobilenav.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div>
+    <nav class="desktopnav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="eboard.html">Executive Board</a>
+      <a class="nav-logoa" href="index.html"><img  src="images/smart-is-strong-logo-edit2.png" alt="logo"/></a>
+      <!-- Image Title: SIS Logo
+      Image Source: Smart is Strong Organization  -->
+      <div class="dropdown">
+        <p class="dropbtn">What We Do</p>
+        <div class="dropdown-content">
+          <a href="events.html">Events</a>
+          <a href="projects.html">Projects</a>
+          <a href="news.html">News</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <p class="dropbtn">Join Us</p>
+        <div class="dropdown-content">
+          <a href="subscribe.html">Subscribe</a>
+          <a href="apply.html">Apply</a>
+        </div>
+      </div>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <!-- MOBILE NAV -->
+    <div>
+      <button class="mobilenav-button">
+        <span class="mobilenav-lines">&mdash;</span>
+        <span class="mobilenav-lines">&mdash;</span>
+        <span class="mobilenav-lines">&mdash;</span>
+      </button>
+    </div>
+    <nav class="mobilenav">
+      <div class="mobilenavdisplay hidden">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="eboard.html">Executive Board</a>
+        <div class="dropdown">
+          <div><p class="dropbtn" id="what-we-do">What We Do</p><p class="grthan-what"> &gt;</p></div>
+          <div class="dropdown-content-mobile hidden" id="what-we-do-content">
+            <a href="events.html">Events</a>
+            <a href="projects.html">Projects</a>
+            <a href="news.html">News</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <div class="row"><p class="dropbtn" id="join-us">Join Us</p><p class="grthan-join"> &gt;</p></div>
+          <div class="dropdown-content-mobile hidden" id=join-us-content >
+            <a href="subscribe.html">Subscribe</a>
+            <a href="apply.html">Apply</a>
+          </div>
+        </div>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="godown"></div>
+
+
+  <header class="centered">
+    <div class="homeimage">
+      <figure>
+        <img class="image-fullwidth" src="images/eboard.jpg" alt="Picture for Executive Board Page"/>
+        <!-- Image Title: All Hands On Deck by Perry Grone
+        Image Source: Image Source: https://unsplash.com/photos/lbLgFFlADrY (Obtained on Unsplash) -->
+        <h1 class="overlay-text centered">Executive Board</h1>
+        <figcaption class="headersource hide-cite"><a href="https://unsplash.com/photos/lbLgFFlADrY">Source</a></figcaption>
+      </figure>
+    </div>
+  </header>
+
+  <main class="centered">
+    <div class="committee">
+      <blockquote>"I founded Smart is Strong in the summer of 2017 because I saw a need for feminism to acknowledge that some of the broader women's issues that exist in society either come from or are reproduced by our classrooms and universities. As both a researcher and as a student, I have always been very intrigued by the sociology of education and supply side effects when it comes to women in the workplace. As Ivy League students, we have been given a lot of privilege through our education, and I feel that it is important for us to try to give back and elevate those who have not been afforded the same privileges." -Elena Gupta, President and Founder</blockquote>
+      <h2>Officer Committee</h2>
+      <div class="board-members">
+        <div id="elena_gupta" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/1_elena_gupta.jpg" alt="Picture of Elena Gupta" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Elena Gupta '19</p>
+          <p>President | Founder</p>
+          <ul id="elena_gupta-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Human Biology, Health, and Society</li>
+            <li class="minor"><strong>Minors</strong>: Inequality Studies, Human Development</li>
+            <li class="hometown"><strong>Hometown</strong>: Lansing, NY</li>
+            <li class="inspiration"><strong>Inspiration</strong>: Michelle Obama, Malala Yousafzai, Reshma Saujani</li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: Cornell Undergraduate Research Board, PRYDE Scholar in Department of Human Development and Bronfenbrenner Center for Translational Research, Let's Get Coffee, Ithaca Free Health Clinic, Ithaca Health Alliance Navigators Program</li>
+          </ul>
+        </div>
+        <div id="gita_connolly" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture"  src="images/2_gita_connolly.png" alt="Picture of Gita Connolly" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Gita Connolly '19</p>
+          <p>Vice President (Studying Abroad)</p>
+          <ul id="gita_connolly-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Asian Studies</li>
+            <li class="minor"><strong>Minors</strong>: Inequality Studies, International Relations</li>
+            <li class="hometown"><strong>Hometown</strong>: Flossmoor, IL</li>
+            <li class="inspiration"><strong>Inspiration</strong>: Diana Mao, Chimamanda Ngozi Adichie, Sarah Kay </li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: Operation DEEP, Cornell Symphony and Chamber Orchestra</li>
+          </ul>
+        </div>
+        <div id="keya_gangadharan" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/3_keya_gangadharan.png" alt="Picture of Keya Gangadharan" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Keya Gangadharan '19</p>
+          <p>Interim Vice President</p>
+          <ul id="keya_gangadharan-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Mechanical Engineering</li>
+            <li class="minor"><strong>Minors</strong>: Parsippany, NJ</li>
+            <li class="hometown"><strong>Hometown</strong>: Marie Curie, Malala Yousafzai, Emma Watson, Tarana Burke</li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: Cornell University Chorale, Cornell Hyperloop</li>
+          </ul>
+        </div>
+        <div id="grace_kaiser" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture"  src="images/4_grace_kaiser.jpg" alt="Picture of Grace Kaiser" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Grace Kaiser '18</p>
+          <p>Secretary</p>
+          <ul id="grace_kaiser-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Interdisciplinary Studies: Accounting</li>
+            <li class="minor"><strong>Minors</strong>: Business</li>
+            <li class="hometown"><strong>Hometown</strong>: Staten Island, NY</li>
+            <li class="inspiration"><strong>Inspiration</strong>: Mother Teresa, Elizabeth Lady Stanton</li>
+          </ul>
+        </div>
+        <div id="jessica_guarnizo" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/5_jessica_guarnizo.jpg" alt="Picture of Jessica Guarnizo" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Jessica Guarnizo '19</p>
+          <p>Treasurer</p>
+          <ul id="jessica_guarnizo-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Biology and Society </li>
+            <li class="minor"><strong>Minors</strong>: Inequality Studies </li>
+            <li class="hometown"><strong>Hometown</strong>: North Arlington, NJ</li>
+            <li class="inspiration"><strong>Inspiration</strong>: Michelle Obama, Coco Chanel, Anne Frank, Oprah Winfrey </li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: Cornell Association of Medicine and Philanthropy, Cornell Red Carpet Ambassador, William Keeton House Active Citizen, Alpha Chi Sigma </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="committee other">
+      <blockquote>"I wanted to get involved with SiS because I wanted to help empower women the same way I was inspired by other great woman leaders. Surrounding myself with this incredible executive board who is passionate about advocating women's rights has deepened my urge to help other women find their voice and not be afraid to stand up and speak out." -Keya Gangadharan, Interim Vice President</blockquote>
+      <h2>VP Committee</h2>
+      <div class="board-members">
+        <div id="diana_ceron" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/19_diana_ceron.jpg" alt="Picture of Diana Ceron" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Diana Ceron '20​</p>
+          <ul id="diana_ceron-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Government, Spanish</li>
+            <li class="minor"><strong>Minors</strong>: Latino(a) Studies, Latin American Studies, Law and Society</li>
+            <li class="hometown"><strong>Hometown</strong>: Los Angeles, CA</li>
+            <li class="inspiration"><strong>Inspiration</strong>: My family</li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: Center for Teaching Innovation, M.E.Ch.A, Committee on U.S./Latin American Relations, Carol Tatkon Center, Friends of Farmworkers</li>
+          </ul>
+        </div>
+        <div id="anekha_goyal" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/7_anekha_goyal.png" alt="Picture of Anekha Goyal" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Anekha Goyal '21</p>
+          <ul id="anekha_goyal-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Biological Sciences</li>
+            <li class="minor"><strong>Minors</strong>: Inequality Studies, International Relations</li>
+            <li class="hometown"><strong>Hometown</strong>: Marlboro, NJ</li>
+            <li class="inspiration"><strong>Inspiration</strong>: Michelle Obama, Ellen DeGeneres, Leslie Knope, my mom, and my sister </li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: Cornell University Sustainable Design (CUSD), South Asian Council, Nazaqat</li>
+          </ul>
+        </div>
+        <div id="masa_haddad" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/6_masa_haddad.jpg" alt="Picture of Masa Haddad" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Masa Haddad '21</p>
+          <ul id="masa_haddad-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Policy Analysis and Management</li>
+            <li class="hometown"><strong>Hometown</strong>: Amman, Jordan</li>
+            <li class="inspiration"><strong>Inspiration</strong>: Haifa Al Najjar </li>
+          </ul>
+        </div>
+        <div id="hannah_faulwell" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/8_hannah_faulwell.jpg" alt="Picture of Hannah Faulwell" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Hannah Faulwell '22</p>
+          <ul id="hannah_faulwell-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Urban and Regional Studies</li>
+            <li class="minor"><strong>Minors</strong>: History and Music</li>
+            <li class="hometown"><strong>Hometown</strong>: Albuquerque, NM</li>
+            <li class="inspiration"><strong>Inspiration</strong>: My parents</li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: Cornell Symphony Orchestra, Organization of Urban and Regional Studies</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="committee">
+      <blockquote>"I'm involved in SIS because I wanted to help others utilize resources surrounding them by providing my attention and knowledge in the areas they seek advice in. I wanted to be able to help lead a nonprofit whose specific mission is to inspire and encourage women through community service and outreach activities, and my position as Outreach Director has enabled me to make a wide range of different contacts both within Cornell's faculty and students, as well as outside in the Ithaca communities surrounding us. I'm proud to be a part of an organization with such dedicated, driven members." -Selin Edebali, Outreach Director</blockquote>
+      <h2>Outreach Committee</h2>
+      <div class="board-members">
+        <div id="selin_edebali" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/9_selin_edebali.png" alt="Picture of Selin Edebali" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Selin Edebali '20</p>
+          <p>Outreach Director</p>
+          <ul id="selin_edebali-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Industrial and Labor Relations</li>
+            <li class="minor"><strong>Minors</strong>: Inequality Studies and FGSS</li>
+            <li class="hometown"><strong>Hometown</strong>: Izmir, Turkey; Long Island, NY</li>
+            <li class="inspiration"><strong>Inspiration</strong>: Ellen Degeneres</li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: ILR Women's Caucus, Speech and Debate Society</li>
+          </ul>
+        </div>
+        <div id="joy_li" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/10_joy_li.png" alt="Picture of Joy Li" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Joy Li '19</p>
+          <ul id="joy_li-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Biomedical Engineering</li>
+            <li class="hometown"><strong>Hometown</strong>: Virginia Beach, VA</li>
+            <li class="inspiration"><strong>Inspiration</strong>: Ellen Degeneres, Oprah Winfrey, Emma Watson </li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: Shvet's Applied and Engineering Physics Lab, Phi Mu Fraternity</li>
+          </ul>
+        </div>
+        <div id="sharon_yu" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/11_sharon_yu.jpg" alt="Picture of Sharon Yu" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Sharon Yu '21</p>
+          <ul id="sharon_yu-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Biological Sciences</li>
+            <li class="hometown"><strong>Hometown</strong>: New York City, NY</li>
+            <li class="inspiration"><strong>Inspiration</strong>: Frances O. Kelsey, Dorothy Vaughan </li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: Assorted Aces, KDSAP, E. Motion</li>
+          </ul>
+        </div>
+        <div id="sneha_sharma" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/12_sneha_sharma.png" alt="Picture of Sneha Sharma" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Sneha Sharma '21</p>
+          <ul id="sneha_sharma-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Biology</li>
+            <li class="minor"><strong>Minors</strong>: Computer Science</li>
+            <li class="hometown"><strong>Hometown</strong>: Holmdel, NJ</li>
+            <li class="inspiration"><strong>Inspiration</strong>: Oprah Winfrey, Malala Yousafzai, Michelle Obama, Sheryl Sandberg</li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: AguaClara, Cornell Daily Sun </li>
+          </ul>
+        </div>
+        <div id="emily_levin" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/13_emily_levin.png" alt="Picture of Emily Levin" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Emily Levin '21</p>
+          <ul id="emily_levin-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Biology and Society</li>
+            <li class="minor"><strong>Minors</strong>: Law and Society</li>
+            <li class="hometown"><strong>Hometown</strong>: Orlando, FL</li>
+            <li class="inspiration"><strong>Inspiration</strong>: My older sister, Megan</li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: Pepsi Brand Ambassador, EARS Training, Delta Delta Delta Sorority, Club Ice Hockey</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="committee other">
+      <blockquote>"I am involved in SIS because I want to show that men can and should be feminists. Traditional masculinity does not permit men to concede to women, even when men are wrong. I enjoy that SIS works at a local level to show that gender equality is necessary and achievable." -Christopher Morales, Public Relations Director</blockquote>
+      <h2>Public Relations Committee</h2>
+      <div class="board-members">
+        <div id="christopher_morales" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/14_christopher_morales.jpg" alt="Picture of Christopher Morales" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Christopher Morales '20</p>
+          <p>Public Relations Director</p>
+          <ul id="christopher_morales-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Communication</li>
+            <li class="minor"><strong>Minors</strong>: Theatre</li>
+            <li class="hometown"><strong>Hometown</strong>: Los Angeles, CA</li>
+            <li class="inspiration"><strong>Inspiration</strong>: Justin Baldoni, Jorge Ramos, Gina Rodriguez </li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: Communication Student Advisory Board, WVBR, Turnkey Podcast</li>
+          </ul>
+        </div>
+        <div id="sundas_wiqas" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/15_sundas_wiqas.png" alt="Picture of Sundas (Sana) Wiqas" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Sundas (Sana) Wiqas '18</p>
+          <ul id="sundas_wiqas-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Industrial and Labor Relations</li>
+            <li class="hometown"><strong>Hometown</strong>: Long Island, NY</li>
+            <li class="inspiration"><strong>Inspiration</strong>: My mom, Asma Jahangir, Ruth Bader Ginsburg</li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: Cornell International Affairs Review, Phi Alpha Delta Fraternity, Ithaca Welcomes Refugees.</li>
+          </ul>
+        </div>
+        <div id="mia_seungeun_lee" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/16_mia_seungeun_lee.png" alt="Picture of Mia SeungEun Lee" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Mia SeungEun Lee '21</p>
+          <ul id="mia_seungeun_lee-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Environmental Science</li>
+            <li class="minor"><strong>Minors</strong>: Information Science</li>
+            <li class="hometown"><strong>Hometown</strong>: Seoul, Korea</li>
+            <li class="inspiration"><strong>Inspiration</strong>: Emma Gonzalez, and other young, empowered, and socially minded women who evidently use their voices to incite change and fight for causes they believe in</li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: The Callbaxx A Capella, Women's Club Hockey Team, Cornell Chorale, Society of Women in Business</li>
+          </ul>
+        </div>
+        <div id="estefany_dominguez" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/17_estefany_dominguez.jpg" alt="Picture of Estefany Dominguez" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Estefany Dominguez '21</p>
+          <ul id="estefany_dominguez-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Biology</li>
+            <li class="hometown"><strong>Hometown</strong>: The Bronx, NYC</li>
+            <li class="inspiration"><strong>Inspiration</strong>: My parents</li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: Biology Scholars Program, Alpha Phi Omega Fraternity</li>
+          </ul>
+        </div>
+        <div id="wanxing_lu" class="member">
+          <!--   Image Title: Eboard Member of SiS
+          Image Source: SIS   -->
+          <img class="member-picture" src="images/18_wanxing_lu.png" alt="Picture of Wanxing Lu" />
+          <p class="hide-cite"><em>Source: SIS</em></p>
+          <p>Wanxing Lu '21</p>
+          <p>Webmaster</p>
+          <ul id="wanxing_lu-info" class="member-info hidden">
+            <li class="major"><strong>Major</strong>: Computer Science</li>
+            <li class="minor"><strong>Minors</strong>: Applied Math</li>
+            <li class="hometown"><strong>Hometown</strong>: Basking Ridge, NJ</li>
+            <li class="inspiration"><strong>Inspiration</strong>: My mom, Mary Wollstonecraft, Anne Hathaway</li>
+            <li class="campus involvement"><strong>Campus Involvement</strong>: Cornell Symphony Orchestra, Chinese Student Association, Flora Rose Scholar, Thread Magazine</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <div id="footer-citations" class="hide-cite">
+    <span class="footersource"><a href="https://www.freepik.com/free-icon/twitter-circular-logo_731870.htm">Twitter Source</a></span >
+    <span class="footersource"><a href="https://www.iconfinder.com/icons/107153/circle_facebook_icon">Facebook Source</a></span >
+    <span class="footersource"><a href="https://www.iconfinder.com/icons/1805982/circle_circular_instagram_logo_round_user_interface_web_icon">Instagram Source</a></span >
+    <span class="footersource"><a href="https://openclipart.org/detail/216530/mail-icon-white-on-black">Mail Source</a></span >
+  </div>
+  <footer>
+    <div class="icons">
+      <a href="https://twitter.com/smartisstrongcu"><img src="images/twitter.png" alt="Twitter" id="twitter"></a>
+      <!-- Image Title:  by Diego PH
+      Image Source: Image Source: https://unsplash.com/photos/fIq0tET6llw (Obtained on Unsplash) -->
+      <a href="https://www.facebook.com/smartisstrong"><img src="images/facebook.png" alt="Facebook" id="facebook"></a>
+      <!-- Image Title: Facebook by Diego PH
+      Image Source: Image Source: https://unsplash.com/photos/fIq0tET6llw (Obtained on Unsplash) -->
+      <a href="https://www.instagram.com/smartisstrong/"><img src="images/instagram.png" alt="Instagram" id="instagram"></a>
+      <!-- Image Title: The Focus by Diego PH
+      Image Source: Image Source: https://unsplash.com/photos/fIq0tET6llw (Obtained on Unsplash) -->
+      <a href="mailto:smartisstrong@gmail.com"><img src="images/email.png" alt="Email" class="email"></a>
+      <!-- Image Title: The Focus by Diego PH
+      Image Source: Image Source: https://unsplash.com/photos/fIq0tET6llw (Obtained on Unsplash) -->
+    </div>
+    <div id="footer-spacing"></div>
+    <div class="footer-buttons">
+      <div class="footer-button">
+        <a id="donate" href="donate.html">Donate</a>
+      </div>
+      <div class="footer-button">
+        <a id="citation" href="citations.html">Citations</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
